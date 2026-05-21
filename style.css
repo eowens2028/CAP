@@ -1,0 +1,65 @@
+body{
+  background: black;
+ color: white;
+  font-family: monospace
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #eb0000;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.meimg{
+  width: 500px;
+}
+.frame{
+margin-left: 20px;
+ margin-top: 20px;
+   border-style: solid;
+  border-width: 7px;
+  border-color: darkred;
+}
+.grows{
+  border-style: solid;
+  border-width: 5px;
+  background:rgb(255, 0, 0,0.5);  
+}
+.aboutme{
+  border-style: solid;
+  border-width: 5px;
+  background:rgb(255, 0, 0,0.5);  
+}
+.futureimg{
+  width: 600px;
+  margin-left: 20px;
+ margin-top: 20px;
+  align-items: center;
+  border-style: solid;
+  border-width: 7px;
+  border-color: darkred;
+}
+
+.container{
+  display: flex;
+  align-items: center; 
+  gap: 30px;
+}
